@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#hud {
+    width: 260px;
+    height: 480px;
+    background-color: #000;
+    border: 5px solid #00f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 28px;
+    color: #fff;
+}
